@@ -551,7 +551,7 @@ app.listen(PORT, '0.0.0.0', async () => {
   console.log(`   • Reasoning display: ${SHOW_REASONING ? '✅ ENABLED' : '❌ DISABLED'}`);
   console.log(`   • Thinking mode:     ${ENABLE_THINKING_MODE ? '✅ ENABLED' : '❌ DISABLED'}`);
   console.log(`   • API key:           ${NIM_API_KEY ? '✅ Configured' : '❌ Missing'}`);
-  console.log(`   • Max tokens:        12000 (default)`);
+  console.log(`   • Max tokens:        1000000 (default)`);
   console.log(`   • Fallback triggers: ${[...FALLBACK_STATUSES].join(', ')} + timeout`);
   console.log(`   • Max attempts:      ${MAX_FALLBACK_ATTEMPTS}`);
   console.log('');
